@@ -1,0 +1,7 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: T:/vhdl-codes/machineState/main/src/main.vhdl" 
+MESSAGE "Compile Entity "code_converter"" 
+MESSAGE "Compile Architecture "behavioral" of Entity "code_converter"" 
+MESSAGE "Top-level unit(s) detected:" 
+MESSAGE "Entity => code_converter" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 
