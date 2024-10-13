@@ -1,0 +1,403 @@
+# Design: Design main already active.
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: Flow Manager: Not Defined
+acom -reorder -O3 -e 100 -work main -2002  $dsn/src/main.vhdl
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# Error: COMP96_0018: main.vhdl : (10, 1): Identifier expected.
+# Error: COMP96_0015: main.vhdl : (10, 1): ')' expected.
+# Error: COMP96_0015: main.vhdl : (10, 1): ';' expected.
+# Error: COMP96_0019: main.vhdl : (10, 5): Keyword 'end' expected.
+# Error: COMP96_0056: main.vhdl : (12, 1): Cannot find referenced entity declaration "code_converter".
+# Compile failure 5 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -reorder -O3 -e 100 -work main -2002  $dsn/src/main.vhdl
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# Error: COMP96_0018: main.vhdl : (10, 1): Identifier expected.
+# Error: COMP96_0015: main.vhdl : (10, 1): ')' expected.
+# Error: COMP96_0015: main.vhdl : (10, 1): ';' expected.
+# Error: COMP96_0019: main.vhdl : (10, 5): Keyword 'end' expected.
+# Error: COMP96_0056: main.vhdl : (12, 1): Cannot find referenced entity declaration "code_converter".
+# Compile failure 5 Errors 0 Warnings  Analysis time :  79.0 [ms]
+acom -reorder -O3 -e 100 -work main -2002  $dsn/src/main.vhdl
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# Error: COMP96_0018: main.vhdl : (10, 1): Identifier expected.
+# Error: COMP96_0015: main.vhdl : (10, 1): ')' expected.
+# Error: COMP96_0015: main.vhdl : (10, 1): ';' expected.
+# Error: COMP96_0019: main.vhdl : (10, 5): Keyword 'end' expected.
+# Error: COMP96_0056: main.vhdl : (12, 1): Cannot find referenced entity declaration "code_converter".
+# Compile failure 5 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom -reorder -O3 -e 100 -work main -2002  $dsn/src/main.vhdl
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# Error: COMP96_0018: main.vhdl : (10, 1): Identifier expected.
+# Error: COMP96_0015: main.vhdl : (10, 1): ')' expected.
+# Error: COMP96_0015: main.vhdl : (10, 1): ';' expected.
+# Error: COMP96_0019: main.vhdl : (10, 5): Keyword 'end' expected.
+# Error: COMP96_0056: main.vhdl : (12, 1): Cannot find referenced entity declaration "code_converter".
+# Compile failure 5 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -reorder -O3 -e 100 -work main -2002  $dsn/src/main.vhdl
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# Error: COMP96_0078: main.vhdl : (6, 13): Unknown identifier "std_logic".
+# Error: COMP96_0064: main.vhdl : (6, 13): Unknown type.
+# Error: COMP96_0078: main.vhdl : (7, 13): Unknown identifier "std_logic".
+# Error: COMP96_0064: main.vhdl : (7, 13): Unknown type.
+# Error: COMP96_0078: main.vhdl : (8, 9): Unknown identifier "std_logic".
+# Error: COMP96_0064: main.vhdl : (8, 9): Unknown type.
+# Error: COMP96_0056: main.vhdl : (12, 1): Cannot find referenced entity declaration "code_converter".
+# Compile failure 7 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom -reorder -O3 -e 100 -work main -2002  $dsn/src/main.vhdl
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# Error: COMP96_0015: main.vhdl : (7, 8): ')' expected.
+# Error: COMP96_0015: main.vhdl : (7, 8): ';' expected.
+# Error: COMP96_0019: main.vhdl : (7, 10): Keyword 'end' expected.
+# Error: COMP96_0015: main.vhdl : (7, 10): ';' expected.
+# Error: COMP96_0016: main.vhdl : (7, 13): Design unit declaration expected.
+# Error: COMP96_0018: main.vhdl : (10, 12): Identifier expected.
+# Error: COMP96_0056: main.vhdl : (12, 1): Cannot find referenced entity declaration "code_converter".
+# Compile failure 7 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -reorder -O3 -e 100 -work main -2002  $dsn/src/main.vhdl
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# Error: COMP96_0015: main.vhdl : (7, 8): ')' expected.
+# Error: COMP96_0015: main.vhdl : (7, 8): ';' expected.
+# Error: COMP96_0019: main.vhdl : (7, 10): Keyword 'end' expected.
+# Error: COMP96_0015: main.vhdl : (7, 10): ';' expected.
+# Error: COMP96_0016: main.vhdl : (7, 13): Design unit declaration expected.
+# Error: COMP96_0018: main.vhdl : (10, 12): Identifier expected.
+# Error: COMP96_0056: main.vhdl : (12, 1): Cannot find referenced entity declaration "code_converter".
+# Compile failure 7 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -reorder -O3 -e 100 -work main -2002  $dsn/src/main.vhdl
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# Error: COMP96_0018: main.vhdl : (8, 20): Identifier expected.
+# Error: COMP96_0015: main.vhdl : (10, 1): ';' expected.
+# Error: COMP96_0019: main.vhdl : (10, 5): Keyword 'end' expected.
+# Error: COMP96_0056: main.vhdl : (12, 1): Cannot find referenced entity declaration "code_converter".
+# Compile failure 4 Errors 0 Warnings  Analysis time :  79.0 [ms]
+acom -reorder -O3 -e 100 -work main -2002  $dsn/src/main.vhdl
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# Error: COMP96_0078: main.vhdl : (6, 13): Unknown identifier "std_logic".
+# Error: COMP96_0064: main.vhdl : (6, 13): Unknown type.
+# Error: COMP96_0078: main.vhdl : (7, 12): Unknown identifier "std_logic".
+# Error: COMP96_0064: main.vhdl : (7, 12): Unknown type.
+# Error: COMP96_0078: main.vhdl : (8, 9): Unknown identifier "std_logic".
+# Error: COMP96_0064: main.vhdl : (8, 9): Unknown type.
+# Error: COMP96_0056: main.vhdl : (12, 1): Cannot find referenced entity declaration "code_converter".
+# Compile failure 7 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom -reorder -O3 -e 100 -work main -2002  $dsn/src/main.vhdl
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# Error: COMP96_0078: main.vhdl : (6, 13): Unknown identifier "std_logic".
+# Error: COMP96_0064: main.vhdl : (6, 13): Unknown type.
+# Error: COMP96_0078: main.vhdl : (7, 12): Unknown identifier "std_logic".
+# Error: COMP96_0064: main.vhdl : (7, 12): Unknown type.
+# Error: COMP96_0078: main.vhdl : (8, 9): Unknown identifier "std_logic".
+# Error: COMP96_0064: main.vhdl : (8, 9): Unknown type.
+# Error: COMP96_0056: main.vhdl : (12, 1): Cannot find referenced entity declaration "code_converter".
+# Compile failure 7 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom -reorder -O3 -e 100 -work main -2002  $dsn/src/main.vhdl
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# Error: COMP96_0078: main.vhdl : (6, 13): Unknown identifier "std_logic".
+# Error: COMP96_0064: main.vhdl : (6, 13): Unknown type.
+# Error: COMP96_0078: main.vhdl : (7, 12): Unknown identifier "std_logic".
+# Error: COMP96_0064: main.vhdl : (7, 12): Unknown type.
+# Error: COMP96_0078: main.vhdl : (8, 9): Unknown identifier "std_logic".
+# Error: COMP96_0064: main.vhdl : (8, 9): Unknown type.
+# Error: COMP96_0056: main.vhdl : (12, 1): Cannot find referenced entity declaration "code_converter".
+# Compile failure 7 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -reorder -O3 -e 100 -work main -2002  $dsn/src/main.vhdl
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# Error: COMP96_0078: main.vhdl : (6, 13): Unknown identifier "std_logic".
+# Error: COMP96_0064: main.vhdl : (6, 13): Unknown type.
+# Error: COMP96_0078: main.vhdl : (7, 12): Unknown identifier "std_logic".
+# Error: COMP96_0064: main.vhdl : (7, 12): Unknown type.
+# Error: COMP96_0078: main.vhdl : (8, 9): Unknown identifier "std_logic".
+# Error: COMP96_0064: main.vhdl : (8, 9): Unknown type.
+# Error: COMP96_0056: main.vhdl : (12, 1): Cannot find referenced entity declaration "code_converter".
+# Compile failure 7 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom -reorder -O3 -e 100 -work main -2002  $dsn/src/main.vhdl
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# Error: COMP96_0078: main.vhdl : (6, 13): Unknown identifier "std_logic".
+# Error: COMP96_0064: main.vhdl : (6, 13): Unknown type.
+# Error: COMP96_0078: main.vhdl : (7, 12): Unknown identifier "std_logic".
+# Error: COMP96_0064: main.vhdl : (7, 12): Unknown type.
+# Error: COMP96_0078: main.vhdl : (8, 9): Unknown identifier "std_logic".
+# Error: COMP96_0064: main.vhdl : (8, 9): Unknown type.
+# Error: COMP96_0056: main.vhdl : (12, 1): Cannot find referenced entity declaration "code_converter".
+# Compile failure 7 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -reorder -O3 -e 100 -work main -2002  $dsn/src/main.vhdl
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# Error: COMP96_0078: main.vhdl : (6, 13): Unknown identifier "std_logic".
+# Error: COMP96_0064: main.vhdl : (6, 13): Unknown type.
+# Error: COMP96_0078: main.vhdl : (7, 8): Unknown identifier "std_logic".
+# Error: COMP96_0064: main.vhdl : (7, 8): Unknown type.
+# Error: COMP96_0078: main.vhdl : (8, 9): Unknown identifier "std_logic".
+# Error: COMP96_0064: main.vhdl : (8, 9): Unknown type.
+# Error: COMP96_0056: main.vhdl : (12, 1): Cannot find referenced entity declaration "code_converter".
+# Compile failure 7 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom -reorder -O3 -e 100 -work main -2002  $dsn/src/main.vhdl
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# Error: COMP96_0078: main.vhdl : (6, 13): Unknown identifier "std_logic".
+# Error: COMP96_0064: main.vhdl : (6, 13): Unknown type.
+# Error: COMP96_0078: main.vhdl : (7, 12): Unknown identifier "std_logic".
+# Error: COMP96_0064: main.vhdl : (7, 12): Unknown type.
+# Error: COMP96_0078: main.vhdl : (8, 9): Unknown identifier "std_logic".
+# Error: COMP96_0064: main.vhdl : (8, 9): Unknown type.
+# Error: COMP96_0056: main.vhdl : (12, 1): Cannot find referenced entity declaration "code_converter".
+# Compile failure 7 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom -reorder -O3 -e 100 -work main -2002  $dsn/src/main.vhdl
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# Error: COMP96_0078: main.vhdl : (6, 13): Unknown identifier "std_logic".
+# Error: COMP96_0064: main.vhdl : (6, 13): Unknown type.
+# Error: COMP96_0078: main.vhdl : (7, 12): Unknown identifier "std_logic".
+# Error: COMP96_0064: main.vhdl : (7, 12): Unknown type.
+# Error: COMP96_0078: main.vhdl : (8, 9): Unknown identifier "std_logic".
+# Error: COMP96_0064: main.vhdl : (8, 9): Unknown type.
+# Error: COMP96_0056: main.vhdl : (12, 1): Cannot find referenced entity declaration "code_converter".
+# Compile failure 7 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom -reorder -O3 -e 100 -work main -2002  $dsn/src/main.vhdl
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# File: T:/vhdl-codes/machineState/main/src/main.vhdl
+# Compile Entity "code_converter"
+# Compile Architecture "behavioral" of Entity "code_converter"
+# Error: COMP96_0078: main.vhdl : (6, 13): Unknown identifier "std_logic".
+# Error: COMP96_0064: main.vhdl : (6, 13): Unknown type.
+# Error: COMP96_0078: main.vhdl : (7, 12): Unknown identifier "std_logic".
+# Error: COMP96_0064: main.vhdl : (7, 12): Unknown type.
+# Error: COMP96_0078: main.vhdl : (8, 9): Unknown identifier "std_logic".
+# Error: COMP96_0064: main.vhdl : (8, 9): Unknown type.
+# Error: COMP96_0056: main.vhdl : (12, 1): Cannot find referenced entity declaration "code_converter".
+# Compile failure 7 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom -reorder -O3 -e 100 -work main -2002  $dsn/src/main.vhdl
+# Warning: DAGGEN_0523: The source is compiled without the -db

@@ -1,0 +1,28 @@
+V 000051 55 977           1687950298288 behavioral
+(_unit VHDL(code_converter 0 8(behavioral 0 17))
+	(_version vef)
+	(_time 1687950298289 2023.06.28 14:34:58)
+	(_source(\../src/main.vhdl\))
+	(_parameters tan)
+	(_code 6f3c6c6f6f383f79693c29353d6939693a6869696a)
+	(_ent
+		(_time 1687950298264)
+	)
+	(_object
+		(_port(_int enable -1 0 11(_ent(_in)(_event))))
+		(_port(_int x -1 0 12(_ent(_in))))
+		(_port(_int clk -1 0 12(_ent(_in)(_event))))
+		(_port(_int z -1 0 13(_ent(_out))))
+		(_type(_int state_type 0 19(_enum1 s0 s1 s2 s3 s4 s5 s6 (_to i 0 i 6))))
+		(_sig(_int state 0 0 20(_arch(_uni))))
+		(_sig(_int nextstate 0 0 20(_arch(_uni))))
+		(_prcs
+			(line__24(_arch 0 0 24(_prcs(_simple)(_trgt(3)(5))(_sens(1)(4)))))
+			(line__56(_arch 1 0 56(_prcs(_trgt(4))(_sens(0)(2)(5))(_dssslsensitivity 2))))
+		)
+		(_type(_ext ieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+		(_type(_ext ieee.std_logic_1164.STD_ULOGIC(0 STD_ULOGIC)))
+	)
+	(_use(ieee(std_logic_1164))(std(standard)))
+	(_model . behavioral 2 -1)
+)

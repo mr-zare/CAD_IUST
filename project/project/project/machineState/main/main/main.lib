@@ -1,0 +1,24 @@
+timestamp=1687950298414
+
+[~A]
+ModifyID=1
+Version=74
+
+[~MFT]
+0=7|0main.mgf|1760|0
+1=1|1main.mgf|0|0
+3=1|3main.mgf|0|0
+
+[code_converter]
+A/behavioral=21|../src/main.vhdl|17|1*0
+BinW64/behavioral=3*0
+I=0*539
+I/behavioral=0*1760
+M=11|2|vef|1687950298263|../src/main.vhdl|0*202*0xefb2309eeca533c7faaf4166d257348d4112bd6b|0*455*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=21|2|vef|1687950298272|../src/main.vhdl|0*747*0xd09ff7b2b440bc714f9a6fc29baecf9b1a539e21|0*1662*0x20116f55b147878295aeff36dce7fc50
+R=../src/main.vhdl|8
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|f87dfde8ae26e751d49d3ccca2eedae90a982afd9b4ab7cf4ad1b19c930d68f81e48aaa4dbe9107f54ad2ddbd4ff6308
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4e8d40adc9bafba5ed00471486a11a58a
+
+[~U]
+code_converter=11|0*0|

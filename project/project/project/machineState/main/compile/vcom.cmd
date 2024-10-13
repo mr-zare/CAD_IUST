@@ -1,0 +1,1 @@
+-w -erf T:/vhdl-codes/machineState/main/compile/main.erf -d T:/vhdl-codes/machineState/main/compile -s T:/vhdl-codes/machineState/library.cfg -j T:/vhdl-codes/machineState/main/projlib.cfg -work main -reorder -O3 -e 100 -work main -2002 T:/vhdl-codes/machineState/main/src/main.vhdl 

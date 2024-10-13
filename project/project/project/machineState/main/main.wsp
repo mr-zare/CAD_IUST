@@ -1,0 +1,11 @@
+[CACHESIMPLE|Aldec.SymbolsCommands.7]
+Built-in symbols=0
+main=0
+[COMPILESTATUS|.\src\main.vhdl]
+FileTimeLow=1616859591
+FileTimeHigh=31041968
+Status=Compiled
+[General]
+CurrentVersion=103
+[CACHEDOC|Aldec.Project.Generic.7|.\main\main.adf|]
+Path=
