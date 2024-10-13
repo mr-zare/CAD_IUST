@@ -1,0 +1,2 @@
+vhdl work "Convolution.vhd"
+vhdl work "CNNAccelerator.vhd"

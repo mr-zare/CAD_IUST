@@ -1,0 +1,57 @@
+timestamp=1688265074989
+
+[~A]
+ModifyID=16
+Version=74
+
+[~MFT]
+0=16|0q1.mgf|21505|14304
+1=6|1q1.mgf|45127|40694
+3=4|3q1.mgf|14437|13089
+
+[statemachine]
+A/my_arch=A/MY_ARCH 21|../src/main.vhdl|15|1*42121
+BinW64/my_arch=3*13779
+I=0*2885
+I/my_arch=I/MY_ARCH 0*19243
+M=11|2|vef|1688262756440|../src/main.vhdl|0*2483*0x1973e1034192ae87910776b2991ecd6ca1da1926|0*2803*0x23b75c12e3e89f2ef000564498faa8c2
+M/my_arch=M/MY_ARCH 21|2|vef|1688265074888|../src/main.vhdl|0*3091*0x0b033bbeaee210e779209e41786f4d8888971e5b|0*4193*0x20116f55b147878295aeff36dce7fc50
+R=../src/main.vhdl|4
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|4f9273847b89d2501f223b5ec08f312e066c580a88b9ede422e4bf1e3ac2818321ee5ee7b08f8e940a2d1344ec4726dc
+Version/my_arch=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|d18ab122766a9c3339a07f8af16417b426527262ddaa47cb266f3a3c4d9b973a193779c6d70425201debbab784aad16b
+
+[statemachine_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|../src/TestBench/statemachine_TB.vhd|9|1*43472
+BinW64/tb_architecture=3*14437
+I=0*4944
+I/tb_architecture=I/TB_ARCHITECTURE 0*20788
+M=11|2|vef|1688263276620|../src/TestBench/statemachine_TB.vhd|0*4636*0x72fe029465bb2b3b6348cae951f1af92232e1f91|0*4839*0x23b75c12e3e89f2ef000564498faa8c2
+M/tb_architecture=M/TB_ARCHITECTURE 21|2|vef|1688265074934|../src/TestBench/statemachine_TB.vhd|0*19457*0x233fd76bb50e09b9a3aa37fc077a9c80b4172b2a|0*20664*0x20116f55b147878295aeff36dce7fc50
+R=../src/TestBench/statemachine_TB.vhd|6
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|a4cba6af9150849fe424b9176edc983db8483e6b84bb2335c4de9d5e06dbd07ae6437a9728d3adff2287a4b029ccd5ef
+Version/tb_architecture=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534bea7bdb211f6d9d8e27d76d0636103b486d
+
+[testbench_for_statemachine]
+Configures=statemachine_tb.TB_ARCHITECTURE
+E=1*45127
+I=0*21505
+M=2|2|vef|1688265074953|../src/TestBench/statemachine_TB.vhd|0*21048*0x17c83622ea03f678734cb06f41e99541bc3fa604|0*21371*0x20116f55b147878295aeff36dce7fc50
+R=../src/TestBench/statemachine_TB.vhd|105
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e55c15b75310b0d36ebb5320f540ca06f02ffdf25895d432942e3ce6a1952d43450ed887c4f6dd8290c0960895cff0587f
+
+[zero_block]
+A/behavioral=21|../src/main.vhdl|15|1*0
+BinW64/behavioral=3*0
+I=0*629
+I/behavioral=0*2038
+M=11|2|vef|1688261963161|../src/main.vhdl|0*225*0x5ba0e620f1409a134fe74f684c565fafa1ba74fd|0*549*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=21|2|vef|1688261963168|../src/main.vhdl|0*833*0x082e3a3eab0c25b10eca19224e2f5849dae0ccee|0*1944*0x20116f55b147878295aeff36dce7fc50
+R=../src/main.vhdl|4
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|158455cd801063a2c202d4a976af2c8276158f4affc8ea31b331ef3ac4d8df7b57975e2da0f1e89e2dc60e1f912688f2
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4a1bc5c2d8dc4927da12c6e423aba2bee
+
+[~U]
+statemachine=11|0*2253|
+statemachine_tb=11|0*4500|
+testbench_for_statemachine=TESTBENCH_FOR_statemachine 2||
+zero_block=11|0*0|

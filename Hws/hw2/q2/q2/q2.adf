@@ -1,0 +1,32 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=q2
+[Library]
+q2=.\q2\q2.lib
+[$LibMap$]
+q2=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[Files]
+/main.vhd=-1
+/q2.asdb=-1
+/q2.awc=-1
+TestBench/jazr_TB.vhd=-1
+TestBench/jazr_TB_runtest.do=-1
+[Files.Data]
+.\src\main.vhd=VHDL Source Code
+.\src\q2.asdb=Accelerated Waveform File
+.\src\q2.awc=Accelerated Waveform Configuration
+.\src\TestBench\jazr_TB.vhd=VHDL Test Bench
+.\src\TestBench\jazr_TB_runtest.do=Macro
+[Groups]
+TestBench=1

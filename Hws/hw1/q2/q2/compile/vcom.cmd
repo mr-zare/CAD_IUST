@@ -1,0 +1,1 @@
+-w -erf c:/My_Designs/hw1_q2/q2/compile/q2.erf -d c:/My_Designs/hw1_q2/q2/compile -s c:/My_Designs/hw1_q2/library.cfg -j c:/My_Designs/hw1_q2/q2/projlib.cfg -work q2 -dbg -e 100 -work q2 -2002 c:/My_Designs/hw1_q2/q2/src/TestBench/alu_TB.vhd 

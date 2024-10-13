@@ -1,0 +1,1 @@
+-w -erf t:/hw4q2/main/compile/main.erf -d t:/hw4q2/main/compile -s t:/hw4q2/library.cfg -j t:/hw4q2/main/projlib.cfg -work main -O3 -e 100 -work main -2002 t:/hw4q2/main/src/main.vhdl t:/hw4q2/main/src/main2.vhdl t:/hw4q2/main/src/merge.vhdl t:/hw4q2/main/src/TestBench/main_TB.vhd 

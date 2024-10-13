@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/ASUS/Desktop/University/semester 7/CAD/Project/Implementation/CADPROJECT/CNNAccelerator.xst" -ofn "C:/Users/ASUS/Desktop/University/semester 7/CAD/Project/Implementation/CADPROJECT/CNNAccelerator.syr" 
+xst -intstyle ise -ifn "D:/Projects/VHDL/Implementation/Implementation/CADPROJECT/CNNAccelerator.xst" -ofn "D:/Projects/VHDL/Implementation/Implementation/CADPROJECT/CNNAccelerator.syr" 

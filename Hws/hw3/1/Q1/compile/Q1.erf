@@ -1,0 +1,8 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: T:/vhdl-codes/HW31/Q1/src/my_package.vhdl" 
+MESSAGE "Compile Package "complex_matrix"" 
+MESSAGE "Compile Package Body "complex_matrix"" 
+MESSAGE "File: T:/vhdl-codes/HW31/Q1/src/main.vhdl" 
+MESSAGE "Compile Entity "matrix_test"" 
+MESSAGE "Compile Architecture "sim" of Entity "matrix_test"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]" 

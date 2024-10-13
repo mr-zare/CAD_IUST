@@ -1,0 +1,6 @@
+MESSAGE "File: c:/My_Designs/hw4_q3/q3/src/mealy.vhd" 
+MESSAGE "Compile Entity "mealy_fsm"" 
+MESSAGE "Compile Architecture "behavioral" of Entity "mealy_fsm"" 
+MESSAGE "Top-level unit(s) detected:" 
+MESSAGE "Entity => mealy_fsm" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]" 

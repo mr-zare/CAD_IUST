@@ -1,0 +1,1 @@
+-w -erf D:/darsi/CAD/tamrin/hw2/hw2_q2/q2/compile/q2.erf -d D:/darsi/CAD/tamrin/hw2/hw2_q2/q2/compile -s D:/darsi/CAD/tamrin/hw2/hw2_q2/library.cfg -j D:/darsi/CAD/tamrin/hw2/hw2_q2/q2/projlib.cfg -work q2 -dbg -e 100 -work q2 -2002 D:/darsi/CAD/tamrin/hw2/hw2_q2/q2/src/TestBench/jazr_TB.vhd 

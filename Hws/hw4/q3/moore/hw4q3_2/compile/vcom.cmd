@@ -1,0 +1,1 @@
+-w -erf c:/My_Designs/moore/hw4q3_2/compile/hw4q3_2.erf -d c:/My_Designs/moore/hw4q3_2/compile -s c:/My_Designs/moore/library.cfg -j c:/My_Designs/moore/hw4q3_2/projlib.cfg -work hw4q3_2 -reorder -dbg -e 100 -work hw4q3_2 -2002 c:/My_Designs/moore/hw4q3_2/src/main.vhd 

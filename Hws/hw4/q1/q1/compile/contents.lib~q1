@@ -1,0 +1,8 @@
+16
+~E 1 "../src/main.vhdl" 4 statemachine
+~A 1 "../src/main.vhdl" 15 MY_ARCH
+~E 1 "../src/TestBench/statemachine_TB.vhd" 6 statemachine_tb
+~A 1 "../src/TestBench/statemachine_TB.vhd" 9 TB_ARCHITECTURE
+~C 1 "../src/TestBench/statemachine_TB.vhd" 105 testbench_for_statemachine
+~E 1 "../src/main.vhdl" 4 zero_block
+~A 1 "../src/main.vhdl" 15 behavioral

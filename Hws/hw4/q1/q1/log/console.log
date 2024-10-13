@@ -1,0 +1,991 @@
+# Design: Design q1 already active.
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: Flow Manager: Not Defined
+acom -reorder -O3 -e 100 -work q1 -2002  $dsn/src/main.vhdl
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: t:/hw4q1/q1/src/main.vhdl
+# Compile Entity "zero_block"
+# Compile Architecture "behavioral" of Entity "zero_block"
+# Top-level unit(s) detected:
+# Entity => zero_block
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -O3 -e 100 -work q1 -2002  $dsn/src/main.vhdl
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: t:/hw4q1/q1/src/main.vhdl
+# Compile Entity "statemachine"
+# Compile Architecture "MY_ARCH" of Entity "statemachine"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -e 100 -work q1 -2002  $dsn/src/main.vhdl
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: t:/hw4q1/q1/src/main.vhdl
+# Compile Entity "statemachine"
+# Compile Architecture "MY_ARCH" of Entity "statemachine"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -O3 -e 100 -work q1 -2002  $dsn/src/main.vhdl $dsn/src/TestBench/statemachine_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: t:/hw4q1/q1/src/main.vhdl
+# Compile Entity "statemachine"
+# Compile Architecture "MY_ARCH" of Entity "statemachine"
+# File: t:/hw4q1/q1/src/TestBench/statemachine_TB.vhd
+# Compile Entity "statemachine_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "statemachine_tb"
+# Compile Configuration "TESTBENCH_FOR_statemachine"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim -O5 +access +r +m+statemachine statemachine MY_ARCH
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5397 kB (elbread=427 elab2=4831 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location t:\hw4q1\q1\src\wave.asdb
+#  5:31 AM, Sunday, July 2, 2023
+#  Simulation has been initialized
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# VSIM: 1 object(s) traced.
+# Waveform file 'untitled.awc' connected to 't:/hw4q1/q1/src/wave.asdb'.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+statemachine statemachine MY_ARCH
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5397 kB (elbread=427 elab2=4831 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location t:\hw4q1\q1\src\wave.asdb
+#  5:32 AM, Sunday, July 2, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 't:/hw4q1/q1/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+statemachine statemachine MY_ARCH
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5397 kB (elbread=427 elab2=4831 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location t:\hw4q1\q1\src\wave.asdb
+#  5:36 AM, Sunday, July 2, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 't:/hw4q1/q1/src/wave.asdb'.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work q1 -2002  $dsn/src/main.vhdl $dsn/src/TestBench/statemachine_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: t:/hw4q1/q1/src/main.vhdl
+# Compile Entity "statemachine"
+# Compile Architecture "MY_ARCH" of Entity "statemachine"
+# File: t:/hw4q1/q1/src/TestBench/statemachine_TB.vhd
+# Compile Entity "statemachine_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "statemachine_tb"
+# Compile Configuration "TESTBENCH_FOR_statemachine"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim -O5 +access +r +m+statemachine statemachine MY_ARCH
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5397 kB (elbread=427 elab2=4831 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location t:\hw4q1\q1\src\wave.asdb
+#  5:42 AM, Sunday, July 2, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 't:/hw4q1/q1/src/wave.asdb'.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+statemachine statemachine MY_ARCH
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5397 kB (elbread=427 elab2=4831 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location t:\hw4q1\q1\src\wave.asdb
+#  5:44 AM, Sunday, July 2, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 't:/hw4q1/q1/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom -O3 -e 100 -work q1 -2002  $dsn/src/main.vhdl $dsn/src/TestBench/statemachine_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: t:/hw4q1/q1/src/main.vhdl
+# Compile Entity "statemachine"
+# Compile Architecture "MY_ARCH" of Entity "statemachine"
+# File: t:/hw4q1/q1/src/TestBench/statemachine_TB.vhd
+# Compile Entity "statemachine_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "statemachine_tb"
+# Compile Configuration "TESTBENCH_FOR_statemachine"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 800 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 900 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 1 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 1100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 1200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 1300 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 1400 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom -O3 -e 100 -work q1 -2002  $dsn/src/main.vhdl $dsn/src/TestBench/statemachine_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: t:/hw4q1/q1/src/main.vhdl
+# Compile Entity "statemachine"
+# Compile Architecture "MY_ARCH" of Entity "statemachine"
+# File: t:/hw4q1/q1/src/TestBench/statemachine_TB.vhd
+# Compile Entity "statemachine_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "statemachine_tb"
+# Compile Configuration "TESTBENCH_FOR_statemachine"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -e 100 -work q1 -2002  $dsn/src/main.vhdl $dsn/src/TestBench/statemachine_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: t:/hw4q1/q1/src/main.vhdl
+# Compile Entity "statemachine"
+# Compile Architecture "MY_ARCH" of Entity "statemachine"
+# File: t:/hw4q1/q1/src/TestBench/statemachine_TB.vhd
+# Compile Entity "statemachine_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "statemachine_tb"
+# Compile Configuration "TESTBENCH_FOR_statemachine"
+# Compile success 0 Errors 0 Warnings  Analysis time :  79.0 [ms]
+run 100 ns
+# KERNEL: stopped at time: 1500 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 1600 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 1700 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 1800 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 1900 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 2 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom -O3 -e 100 -work q1 -2002  $dsn/src/main.vhdl $dsn/src/TestBench/statemachine_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: t:/hw4q1/q1/src/main.vhdl
+# Compile Entity "statemachine"
+# Compile Architecture "MY_ARCH" of Entity "statemachine"
+# File: t:/hw4q1/q1/src/TestBench/statemachine_TB.vhd
+# Compile Entity "statemachine_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "statemachine_tb"
+# Error: COMP96_0018: TestBench/statemachine_TB.vhd : (56, 15): Identifier expected.
+# Error: COMP96_0019: TestBench/statemachine_TB.vhd : (56, 15): Keyword 'in' expected.
+# Error: COMP96_0019: TestBench/statemachine_TB.vhd : (56, 15): Keyword 'loop' expected.
+# Compile Configuration "TESTBENCH_FOR_statemachine"
+# Compile failure 3 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -e 100 -work q1 -2002  $dsn/src/main.vhdl $dsn/src/TestBench/statemachine_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: t:/hw4q1/q1/src/main.vhdl
+# Compile Entity "statemachine"
+# Compile Architecture "MY_ARCH" of Entity "statemachine"
+# File: t:/hw4q1/q1/src/TestBench/statemachine_TB.vhd
+# Compile Entity "statemachine_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "statemachine_tb"
+# Compile Configuration "TESTBENCH_FOR_statemachine"
+# Compile success 0 Errors 0 Warnings  Analysis time :  79.0 [ms]
+run 100 ns
+# KERNEL: stopped at time: 2100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 2200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+testbench_for_statemachine testbench_for_statemachine
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5400 kB (elbread=427 elab2=4834 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location t:\hw4q1\q1\src\wave.asdb
+#  5:50 AM, Sunday, July 2, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 't:/hw4q1/q1/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+testbench_for_statemachine testbench_for_statemachine
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5400 kB (elbread=427 elab2=4834 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location t:\hw4q1\q1\src\wave.asdb
+#  5:50 AM, Sunday, July 2, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 't:/hw4q1/q1/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run
+# EXECUTION:: ERROR  : Test 1 failed
+# EXECUTION:: Time: 510 ns,  Iteration: 0,  Instance: /statemachine_tb,  Process: line__46.
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+testbench_for_statemachine testbench_for_statemachine
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5400 kB (elbread=427 elab2=4834 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location t:\hw4q1\q1\src\wave.asdb
+#  5:51 AM, Sunday, July 2, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 't:/hw4q1/q1/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+run
+# EXECUTION:: ERROR  : Test 1 failed
+# EXECUTION:: Time: 510 ns,  Iteration: 0,  Instance: /statemachine_tb,  Process: line__46.
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 610 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 710 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+testbench_for_statemachine testbench_for_statemachine
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5400 kB (elbread=427 elab2=4834 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location t:\hw4q1\q1\src\wave.asdb
+#  5:52 AM, Sunday, July 2, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 't:/hw4q1/q1/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+run 100 ns
+# EXECUTION:: ERROR  : Test 1 failed
+# EXECUTION:: Time: 510 ns,  Iteration: 0,  Instance: /statemachine_tb,  Process: line__46.
+# KERNEL: stopped at time: 600 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 800 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 900 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 1 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 1100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+acom -O3 -e 100 -work q1 -2002  $dsn/src/TestBench/statemachine_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: t:/hw4q1/q1/src/TestBench/statemachine_TB.vhd
+# Compile Entity "statemachine_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "statemachine_tb"
+# Compile Configuration "TESTBENCH_FOR_statemachine"
+# Compile success 0 Errors 0 Warnings  Analysis time :  93.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5400 kB (elbread=427 elab2=4834 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location t:\hw4q1\q1\src\wave.asdb
+#  5:57 AM, Sunday, July 2, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 't:/hw4q1/q1/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work q1 -2002  $dsn/src/main.vhdl $dsn/src/TestBench/statemachine_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: t:/hw4q1/q1/src/main.vhdl
+# Compile Entity "statemachine"
+# Compile Architecture "MY_ARCH" of Entity "statemachine"
+# File: t:/hw4q1/q1/src/TestBench/statemachine_TB.vhd
+# Compile Entity "statemachine_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "statemachine_tb"
+# Compile Configuration "TESTBENCH_FOR_statemachine"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim -O5 +access +r +m+testbench_for_statemachine testbench_for_statemachine
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5400 kB (elbread=427 elab2=4834 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location t:\hw4q1\q1\src\wave.asdb
+#  5:57 AM, Sunday, July 2, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 't:/hw4q1/q1/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+testbench_for_statemachine testbench_for_statemachine
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5400 kB (elbread=427 elab2=4834 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location t:\hw4q1\q1\src\wave.asdb
+#  5:58 AM, Sunday, July 2, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 't:/hw4q1/q1/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+testbench_for_statemachine testbench_for_statemachine
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5400 kB (elbread=427 elab2=4834 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location t:\hw4q1\q1\src\wave.asdb
+#  5:58 AM, Sunday, July 2, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 't:/hw4q1/q1/src/wave.asdb'.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+testbench_for_statemachine testbench_for_statemachine
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5400 kB (elbread=427 elab2=4834 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location t:\hw4q1\q1\src\wave.asdb
+#  5:58 AM, Sunday, July 2, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 't:/hw4q1/q1/src/wave.asdb'.
+run 10 ns
+# KERNEL: stopped at time: 10 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 10 ns
+# KERNEL: stopped at time: 20 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 10 ns
+# KERNEL: stopped at time: 30 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom -O3 -e 100 -work q1 -2002  $dsn/src/main.vhdl $dsn/src/TestBench/statemachine_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: t:/hw4q1/q1/src/main.vhdl
+# Compile Entity "statemachine"
+# Compile Architecture "MY_ARCH" of Entity "statemachine"
+# File: t:/hw4q1/q1/src/TestBench/statemachine_TB.vhd
+# Compile Entity "statemachine_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "statemachine_tb"
+# Compile Configuration "TESTBENCH_FOR_statemachine"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work q1 -2002  $dsn/src/main.vhdl $dsn/src/TestBench/statemachine_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: t:/hw4q1/q1/src/main.vhdl
+# Compile Entity "statemachine"
+# Compile Architecture "MY_ARCH" of Entity "statemachine"
+# File: t:/hw4q1/q1/src/TestBench/statemachine_TB.vhd
+# Compile Entity "statemachine_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "statemachine_tb"
+# Compile Configuration "TESTBENCH_FOR_statemachine"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+testbench_for_statemachine testbench_for_statemachine
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5400 kB (elbread=427 elab2=4834 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location t:\hw4q1\q1\src\wave.asdb
+#  5:59 AM, Sunday, July 2, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 't:/hw4q1/q1/src/wave.asdb'.
+run 10 ns
+# KERNEL: stopped at time: 10 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom -O3 -e 100 -work q1 -2002  $dsn/src/main.vhdl $dsn/src/TestBench/statemachine_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: t:/hw4q1/q1/src/main.vhdl
+# Compile Entity "statemachine"
+# Compile Architecture "MY_ARCH" of Entity "statemachine"
+# File: t:/hw4q1/q1/src/TestBench/statemachine_TB.vhd
+# Compile Entity "statemachine_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "statemachine_tb"
+# Compile Configuration "TESTBENCH_FOR_statemachine"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+testbench_for_statemachine testbench_for_statemachine
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5400 kB (elbread=427 elab2=4834 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location t:\hw4q1\q1\src\wave.asdb
+#  6:00 AM, Sunday, July 2, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 't:/hw4q1/q1/src/wave.asdb'.
+run 10 ns
+# KERNEL: stopped at time: 10 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 10 ns
+# KERNEL: stopped at time: 20 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 10 ns
+# KERNEL: stopped at time: 30 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom -O3 -e 100 -work q1 -2002  $dsn/src/main.vhdl $dsn/src/TestBench/statemachine_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: t:/hw4q1/q1/src/main.vhdl
+# Compile Entity "statemachine"
+# Compile Architecture "MY_ARCH" of Entity "statemachine"
+# File: t:/hw4q1/q1/src/TestBench/statemachine_TB.vhd
+# Compile Entity "statemachine_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "statemachine_tb"
+# Compile Configuration "TESTBENCH_FOR_statemachine"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+testbench_for_statemachine testbench_for_statemachine
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5401 kB (elbread=427 elab2=4834 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location t:\hw4q1\q1\src\wave.asdb
+#  6:01 AM, Sunday, July 2, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 't:/hw4q1/q1/src/wave.asdb'.
+run 10 ns
+# KERNEL: stopped at time: 10 ns
+run 10 ns
+# KERNEL: stopped at time: 20 ns
+run 10 ns
+# KERNEL: stopped at time: 30 ns
+run 10 ns
+# KERNEL: stopped at time: 40 ns
+run 10 ns
+# KERNEL: stopped at time: 50 ns
+run 10 ns
+# KERNEL: stopped at time: 60 ns
+run 10 ns
+# KERNEL: stopped at time: 70 ns
+run 10 ns
+# KERNEL: stopped at time: 80 ns
+run 10 ns
+# KERNEL: stopped at time: 90 ns
+run 10 ns
+# KERNEL: stopped at time: 100 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+testbench_for_statemachine testbench_for_statemachine
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5401 kB (elbread=427 elab2=4834 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location t:\hw4q1\q1\src\wave.asdb
+#  6:01 AM, Sunday, July 2, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 't:/hw4q1/q1/src/wave.asdb'.
+run 10 ns
+# KERNEL: stopped at time: 10 ns
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+run
+# EXECUTION:: ERROR  : Test 2 failed
+# EXECUTION:: Time: 670 ns,  Iteration: 0,  Instance: /statemachine_tb,  Process: line__46.
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 10 ns
+# KERNEL: stopped at time: 680 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 10 ns
+# KERNEL: stopped at time: 690 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+testbench_for_statemachine testbench_for_statemachine
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5401 kB (elbread=427 elab2=4834 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location t:\hw4q1\q1\src\wave.asdb
+#  6:02 AM, Sunday, July 2, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 't:/hw4q1/q1/src/wave.asdb'.
+run 10 ns
+# KERNEL: stopped at time: 10 ns
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+run 10 ns
+# KERNEL: stopped at time: 20 ns
+run 10 ns
+# KERNEL: stopped at time: 30 ns
+run 10 ns
+# KERNEL: stopped at time: 40 ns
+run 10 ns
+# KERNEL: stopped at time: 50 ns
+run 10 ns
+# KERNEL: stopped at time: 60 ns
+run 10 ns
+# KERNEL: stopped at time: 70 ns
+run 10 ns
+# KERNEL: stopped at time: 80 ns
+run 10 ns
+# KERNEL: stopped at time: 90 ns
+run 10 ns
+# KERNEL: stopped at time: 100 ns
+run 10 ns
+# KERNEL: stopped at time: 110 ns
+run 10 ns
+# KERNEL: stopped at time: 120 ns
+run 10 ns
+# KERNEL: stopped at time: 130 ns
+run 10 ns
+# KERNEL: stopped at time: 140 ns
+run 10 ns
+# KERNEL: stopped at time: 150 ns
+run 10 ns
+# KERNEL: stopped at time: 160 ns
+run 10 ns
+# KERNEL: stopped at time: 170 ns
+run 10 ns
+# KERNEL: stopped at time: 180 ns
+run 10 ns
+# KERNEL: stopped at time: 190 ns
+run 10 ns
+# KERNEL: stopped at time: 200 ns
+run 10 ns
+# KERNEL: stopped at time: 210 ns
+run 10 ns
+# KERNEL: stopped at time: 220 ns
+run 10 ns
+# KERNEL: stopped at time: 230 ns
+run 10 ns
+# KERNEL: stopped at time: 240 ns
+run 10 ns
+# KERNEL: stopped at time: 250 ns
+run 10 ns
+# KERNEL: stopped at time: 260 ns
+run 10 ns
+# KERNEL: stopped at time: 270 ns
+run 10 ns
+# KERNEL: stopped at time: 280 ns
+run 10 ns
+# KERNEL: stopped at time: 290 ns
+run 10 ns
+# KERNEL: stopped at time: 300 ns
+run 10 ns
+# KERNEL: stopped at time: 310 ns
+run 10 ns
+# KERNEL: stopped at time: 320 ns
+run 10 ns
+# KERNEL: stopped at time: 330 ns
+run 10 ns
+# KERNEL: stopped at time: 340 ns
+run 10 ns
+# KERNEL: stopped at time: 350 ns
+run 10 ns
+# KERNEL: stopped at time: 360 ns
+run 10 ns
+# KERNEL: stopped at time: 370 ns
+run 10 ns
+# KERNEL: stopped at time: 380 ns
+run 10 ns
+# KERNEL: stopped at time: 390 ns
+run 10 ns
+# KERNEL: stopped at time: 400 ns
+run 10 ns
+# KERNEL: stopped at time: 410 ns
+run 10 ns
+# KERNEL: stopped at time: 420 ns
+run 10 ns
+# KERNEL: stopped at time: 430 ns
+run 10 ns
+# KERNEL: stopped at time: 440 ns
+run 10 ns
+# KERNEL: stopped at time: 450 ns
+run 10 ns
+# KERNEL: stopped at time: 460 ns
+run 10 ns
+# KERNEL: stopped at time: 470 ns
+run 10 ns
+# KERNEL: stopped at time: 480 ns
+run 10 ns
+# KERNEL: stopped at time: 490 ns
+run 10 ns
+# KERNEL: stopped at time: 500 ns
+run 10 ns
+# KERNEL: stopped at time: 510 ns
+run 10 ns
+# KERNEL: stopped at time: 520 ns
+run 10 ns
+# KERNEL: stopped at time: 530 ns
+run 10 ns
+# KERNEL: stopped at time: 540 ns
+run 100 ns
+# KERNEL: stopped at time: 640 ns
+run 100 ns
+# EXECUTION:: ERROR  : Test 2 failed
+# EXECUTION:: Time: 670 ns,  Iteration: 0,  Instance: /statemachine_tb,  Process: line__46.
+# KERNEL: stopped at time: 740 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.

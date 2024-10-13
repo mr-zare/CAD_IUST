@@ -1,0 +1,36 @@
+Active-HDL 13.0.375.8320 2023-04-14 20:54:34
+
+Elaboration top modules:
+Architecture                  TB_ARCHITECTURE(sum_ent_tb)
+
+
+------------------------------------------------------------------------------------------------
+Entity     | Architecture    | Library | Info | Compiler Version          | Compilation Options
+------------------------------------------------------------------------------------------------
+sum_ent_tb | TB_ARCHITECTURE | q1      |      | 13.0.375.8320 (Windows64) | -dbg
+sum_ent    | ans1            | q1      |      | 13.0.375.8320 (Windows64) | -dbg
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+VHDL Package                 | Library | Info | Compiler Version          | Compilation Options
+------------------------------------------------------------------------------------------------
+standard                     | std     |      |                           | <unavailable>
+TEXTIO                       | std     |      | 13.0.375.8320 (Windows64) |  -2019
+std_logic_1164               | ieee    |      | 13.0.375.8320 (Windows64) |  -2008
+arr                          | q1      |      | 13.0.375.8320 (Windows64) | -dbg
+NUMERIC_STD                  | ieee    |      | 13.0.375.8320 (Windows64) |  -2008
+std_logic_arith              | ieee    |      | 13.0.375.8320 (Windows64) | <unavailable>
+STD_LOGIC_UNSIGNED           | ieee    |      | 13.0.375.8320 (Windows64) | <unavailable>
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+Library                      | Comment
+------------------------------------------------------------------------------------------------
+ieee                         | Standard IEEE packages library
+q1                           | None
+std                          | Standard VHDL library
+------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+sum_ent_tb sum_ent_tb TB_ARCHITECTURE
+

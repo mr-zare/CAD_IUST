@@ -1,0 +1,5 @@
+MESSAGE "File: c:/My_Designs/hw1_q2/q2/src/TestBench/alu_TB.vhd" 
+MESSAGE "Compile Entity "alu_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "alu_tb"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_alu"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]" 

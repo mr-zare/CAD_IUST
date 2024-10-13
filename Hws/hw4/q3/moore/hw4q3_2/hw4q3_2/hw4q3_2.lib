@@ -1,0 +1,24 @@
+timestamp=1688271850580
+
+[~A]
+ModifyID=1
+Version=74
+
+[~MFT]
+0=7|0hw4q3_2.mgf|1655|0
+1=1|1hw4q3_2.mgf|0|0
+3=1|3hw4q3_2.mgf|0|0
+
+[moore_fsm]
+A/behavioral=21|../src/main.vhd|13|1*0
+BinW64/behavioral=3*0
+I=0*536
+I/behavioral=0*1655
+M=11|2|vef|1688271850569|../src/main.vhd|0*194*0xbff2142022ba4964fb47ab30c2bf950a52e4dd04|0*458*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=21|2|vef|1688271850571|../src/main.vhd|0*739*0xb94c5b1c8727fb1be87ae37d0af24345a7c55306|0*1563*0x9065d32a2e40e13794b29a2731812845
+R=../src/main.vhd|4
+Version=13.0.375.8320 (Windows64)|00000004789cd34d494a0700030f015b|54f27d8ac4666779335e1c2bdf8b84cf1393fddf47876bc361e7a33e2c7578ef0393ee223fcac0f4c356bac2c90bf12a
+Version/behavioral=13.0.375.8320 (Windows64)|00000004789cd34d494a0700030f015b|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff43c37d516ca9832b6220ecac2f891e793
+
+[~U]
+moore_fsm=11|0*0|

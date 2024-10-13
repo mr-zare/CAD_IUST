@@ -1,0 +1,36 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=q3
+[Library]
+q3=.\q3\q3.lib
+[$LibMap$]
+q3=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[Files]
+/main.vhd=-1
+/wf3.asdb=-1
+/wf3.awc=-1
+TestBench/un_to_bi_TB.vhd=-1
+TestBench/un_to_bi_TB_runtest.do=-1
+[Files.Data]
+.\src\main.vhd=VHDL Source Code
+.\src\wf3.asdb=Accelerated Waveform File
+.\src\wf3.awc=Accelerated Waveform Configuration
+.\src\TestBench\un_to_bi_TB.vhd=VHDL Test Bench
+.\src\TestBench\un_to_bi_TB_runtest.do=Macro
+[Groups]
+TestBench=1
+[HierarchyViewer]
+HierarchyInformation=un_to_bi_tb|TB_ARCHITECTURE|0
+ShowHide=ShowTopLevel
+Selected=

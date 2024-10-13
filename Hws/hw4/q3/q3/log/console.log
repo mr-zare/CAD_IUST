@@ -1,0 +1,13 @@
+# Design: Design q3 already active.
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: Flow Manager: Not Defined
+acom -reorder -dbg -e 100 -work q3 -2002  $dsn/src/mealy.vhd
+# File: c:/My_Designs/hw4_q3/q3/src/mealy.vhd
+# Compile Entity "mealy_fsm"
+# Compile Architecture "behavioral" of Entity "mealy_fsm"
+# Top-level unit(s) detected:
+# Entity => mealy_fsm
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].

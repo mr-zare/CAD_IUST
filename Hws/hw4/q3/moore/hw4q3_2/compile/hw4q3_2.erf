@@ -1,0 +1,6 @@
+MESSAGE "File: c:/My_Designs/moore/hw4q3_2/src/main.vhd" 
+MESSAGE "Compile Entity "moore_fsm"" 
+MESSAGE "Compile Architecture "behavioral" of Entity "moore_fsm"" 
+MESSAGE "Top-level unit(s) detected:" 
+MESSAGE "Entity => moore_fsm" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]" 

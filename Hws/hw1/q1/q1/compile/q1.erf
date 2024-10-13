@@ -1,0 +1,5 @@
+MESSAGE "File: C:/My_Designs/hw1_q1/q1/src/TestBench/sum_ent_TB.vhd" 
+MESSAGE "Compile Entity "sum_ent_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "sum_ent_tb"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_sum_ent"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]" 

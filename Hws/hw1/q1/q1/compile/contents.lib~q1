@@ -1,0 +1,8 @@
+55
+~E 1 "../src/TestBench/sum_ent_TB.vhd" 10 q1_sub_tb
+~A 1 "../src/TestBench/sum_ent_TB.vhd" 13 TB_ARCHITECTURE
+~E 1 "../src/main.vhd" 12 sum_ent
+~A 1 "../src/main.vhd" 22 ans1
+~E 1 "../src/TestBench/sum_ent_TB.vhd" 10 sum_ent_tb
+~A 1 "../src/TestBench/sum_ent_TB.vhd" 13 TB_ARCHITECTURE
+~C 1 "../src/TestBench/sum_ent_TB.vhd" 52 testbench_for_sum_ent

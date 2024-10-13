@@ -1,0 +1,132 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -dbg -e 100 -work q4 -2002  $dsn/src/main.vhd
+# File: C:/My_Designs/hw1_q4/q4/src/main.vhd
+# Compile Entity "multdot"
+# Compile Architecture "ans" of Entity "multdot"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/main.vhd $dsn/src/pkg.vhd $dsn/src/TestBench/multdot_TB.vhd
+# File: C:/My_Designs/hw1_q4/q4/src/main.vhd
+# Compile Entity "multdot"
+# Compile Architecture "ans" of Entity "multdot"
+# File: C:/My_Designs/hw1_q4/q4/src/pkg.vhd
+# Compile Package "arrint"
+# File: C:/My_Designs/hw1_q4/q4/src/TestBench/multdot_TB.vhd
+# Compile Entity "multdot_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "multdot_tb"
+# Compile Configuration "TESTBENCH_FOR_multdot"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/main.vhd $dsn/src/pkg.vhd $dsn/src/TestBench/multdot_TB.vhd
+# File: C:/My_Designs/hw1_q4/q4/src/main.vhd
+# Compile Entity "multdot"
+# Compile Architecture "ans" of Entity "multdot"
+# Warning: DAGGEN_0001: main.vhd : (19, 0): Process without explicit or implicit wait statement - possible infinite loop.
+# File: C:/My_Designs/hw1_q4/q4/src/pkg.vhd
+# Compile Package "arrint"
+# File: C:/My_Designs/hw1_q4/q4/src/TestBench/multdot_TB.vhd
+# Compile Entity "multdot_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "multdot_tb"
+# Compile Configuration "TESTBENCH_FOR_multdot"
+# Compile success 0 Errors 1 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/main.vhd $dsn/src/pkg.vhd
+# File: C:/My_Designs/hw1_q4/q4/src/main.vhd
+# Compile Entity "multdot"
+# Compile Architecture "ans" of Entity "multdot"
+# Warning: DAGGEN_0001: main.vhd : (19, 0): Process without explicit or implicit wait statement - possible infinite loop.
+# File: C:/My_Designs/hw1_q4/q4/src/pkg.vhd
+# Compile Package "arrint"
+# Compile success 0 Errors 1 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/main.vhd
+# File: C:/My_Designs/hw1_q4/q4/src/main.vhd
+# Compile Entity "multdot"
+# Compile Architecture "ans" of Entity "multdot"
+# Warning: DAGGEN_0001: main.vhd : (19, 0): Process without explicit or implicit wait statement - possible infinite loop.
+# Compile success 0 Errors 1 Warnings  Analysis time :  15.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/main.vhd $dsn/src/pkg.vhd
+# File: C:/My_Designs/hw1_q4/q4/src/main.vhd
+# Compile Entity "multdot"
+# Compile Architecture "ans" of Entity "multdot"
+# Error: COMP96_0015: main.vhd : (26, 3): ';' expected.
+# File: C:/My_Designs/hw1_q4/q4/src/pkg.vhd
+# Compile Package "arrint"
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/main.vhd $dsn/src/pkg.vhd
+# File: C:/My_Designs/hw1_q4/q4/src/main.vhd
+# Compile Entity "multdot"
+# Compile Architecture "ans" of Entity "multdot"
+# Error: COMP96_0242: main.vhd : (25, 3): Wait statement in process with explicit sensitivity list is not allowed.
+# File: C:/My_Designs/hw1_q4/q4/src/pkg.vhd
+# Compile Package "arrint"
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/main.vhd $dsn/src/pkg.vhd
+# File: C:/My_Designs/hw1_q4/q4/src/main.vhd
+# Compile Entity "multdot"
+# Compile Architecture "ans" of Entity "multdot"
+# File: C:/My_Designs/hw1_q4/q4/src/pkg.vhd
+# Compile Package "arrint"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/main.vhd $dsn/src/pkg.vhd
+# File: C:/My_Designs/hw1_q4/q4/src/main.vhd
+# Compile Entity "multdot"
+# Compile Architecture "ans" of Entity "multdot"
+# File: C:/My_Designs/hw1_q4/q4/src/pkg.vhd
+# Compile Package "arrint"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/main.vhd $dsn/src/pkg.vhd $dsn/src/TestBench/multdot_TB.vhd
+# File: C:/My_Designs/hw1_q4/q4/src/main.vhd
+# Compile Entity "multdot"
+# Compile Architecture "ans" of Entity "multdot"
+# File: C:/My_Designs/hw1_q4/q4/src/pkg.vhd
+# Compile Package "arrint"
+# File: C:/My_Designs/hw1_q4/q4/src/TestBench/multdot_TB.vhd
+# Compile Entity "multdot_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "multdot_tb"
+# Compile Configuration "TESTBENCH_FOR_multdot"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+asim -O5 +access +r +m+multdot_tb multdot_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5568 kB (elbread=427 elab2=5001 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\hw1_q4\q4\src\wave.asdb
+#  6:52 PM, Friday, April 14, 2023
+#  Simulation has been initialized
+# VSIM: 3 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/hw1_q4/q4/src/wave.asdb'.
+run 50ns
+# KERNEL: stopped at time: 50 ns
+run 50ns
+# KERNEL: stopped at time: 100 ns
+run 50ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 50ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 50ns
+# KERNEL: stopped at time: 250 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 50ns
+# KERNEL: stopped at time: 300 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 50ns
+# KERNEL: stopped at time: 350 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 50ns
+# KERNEL: stopped at time: 400 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# Waveform file 'C:/My_Designs/hw1_q4/q4/src/wv4.awc' connected to 'C:/My_Designs/hw1_q4/q4/src/wv4.asdb'.
+# Adding file C:\My_Designs\hw1_q4\q4\src\wv4.asdb ... Done
+# Adding file C:\My_Designs\hw1_q4\q4\src\wv4.awc ... Done

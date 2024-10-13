@@ -1,0 +1,1 @@
+-w -erf c:/My_Designs/3_2/compile/3_2.erf -d c:/My_Designs/3_2/compile -s c:/My_Designs/3_2/library.cfg -j c:/My_Designs/3_2/projlib.cfg -work 3_2 -reorder -dbg -e 100 -work 3_2 -2002 c:/My_Designs/3_2/src/main.vhd 

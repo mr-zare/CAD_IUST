@@ -1,0 +1,13 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o D:/Projects/VHDL/Implementation/Implementation/CADPROJECT/CNNAccelerator_isim_beh.exe -prj D:/Projects/VHDL/Implementation/Implementation/CADPROJECT/CNNAccelerator_beh.prj work.CNNAccelerator 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/Projects/VHDL/Implementation/Implementation/CADPROJECT/pkg.vhd" into library work
+ERROR:HDLCompiler:806 - "D:/Projects/VHDL/Implementation/Implementation/CADPROJECT/pkg.vhd" Line 7: Syntax error near "real".
+ERROR:HDLCompiler:806 - "D:/Projects/VHDL/Implementation/Implementation/CADPROJECT/pkg.vhd" Line 9: Syntax error near "real".
+ERROR:HDLCompiler:69 - "D:/Projects/VHDL/Implementation/Implementation/CADPROJECT/pkg.vhd" Line 13: <number_of_filters> is not declared.
+ERROR:HDLCompiler:925 - "D:/Projects/VHDL/Implementation/Implementation/CADPROJECT/pkg.vhd" Line 7: Missing full type definition for pixel
+ERROR:HDLCompiler:925 - "D:/Projects/VHDL/Implementation/Implementation/CADPROJECT/pkg.vhd" Line 9: Missing full type definition for filter_number
+ERROR:HDLCompiler:854 - "D:/Projects/VHDL/Implementation/Implementation/CADPROJECT/pkg.vhd" Line 6: Unit <types> ignored due to previous errors.
+VHDL file D:/Projects/VHDL/Implementation/Implementation/CADPROJECT/pkg.vhd ignored due to errors

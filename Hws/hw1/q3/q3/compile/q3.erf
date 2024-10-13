@@ -1,0 +1,8 @@
+MESSAGE "File: C:/My_Designs/hw1_q3/q3/src/main.vhd" 
+MESSAGE "Compile Entity "un_to_bi"" 
+MESSAGE "Compile Architecture "ans" of Entity "un_to_bi"" 
+MESSAGE "File: C:/My_Designs/hw1_q3/q3/src/TestBench/un_to_bi_TB.vhd" 
+MESSAGE "Compile Entity "un_to_bi_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "un_to_bi_tb"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_un_to_bi"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  79.0 [ms]" 

@@ -1,0 +1,1 @@
+-w -erf D:/darsi/CAD/tamrin/hw2/hw2_q3/q3/compile/q3.erf -d D:/darsi/CAD/tamrin/hw2/hw2_q3/q3/compile -s D:/darsi/CAD/tamrin/hw2/hw2_q3/library.cfg -j D:/darsi/CAD/tamrin/hw2/hw2_q3/q3/projlib.cfg -work q3 -reorder -dbg -e 100 -work q3 -2002 D:/darsi/CAD/tamrin/hw2/hw2_q3/q3/src/maain.vhd 

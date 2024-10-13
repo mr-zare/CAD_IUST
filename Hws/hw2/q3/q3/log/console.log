@@ -1,0 +1,66 @@
+# Design: Design q3 already active.
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: Flow Manager: Not Defined
+acom -reorder -dbg -e 100 -work q3 -2002  $dsn/src/maain.vhd
+# File: D:/darsi/CAD/tamrin/hw2/hw2_q3/q3/src/maain.vhd
+# Compile Entity "Decussate"
+# Compile Architecture "Behavioral" of Entity "Decussate"
+# Top-level unit(s) detected:
+# Entity => Decussate
+# Warning: COMP96_0564: maain.vhd : (13, 2): Shared variable is not of a protected type. (IEEE 1076-2002, 4.3.1.3)
+# Warning: COMP96_0564: maain.vhd : (14, 2): Shared variable is not of a protected type. (IEEE 1076-2002, 4.3.1.3)
+# Compile success 0 Errors 2 Warnings  Analysis time :  0.3 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+Decussate Decussate Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5572 kB (elbread=427 elab2=5004 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location D:\darsi\CAD\tamrin\hw2\hw2_q3\q3\src\wave.asdb
+#  2:14 PM, Friday, June 2, 2023
+#  Simulation has been initialized
+# add wave -noreg {/Decussate/Input}
+# add wave -noreg {/Decussate/Output}
+# add wave -noreg {/Decussate/sum1}
+# add wave -noreg {/Decussate/sum2}
+# VSIM: 4 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'D:/darsi/CAD/tamrin/hw2/hw2_q3/q3/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# Waveform file 'D:/darsi/CAD/tamrin/hw2/hw2_q3/q3/src/q3.awc' connected to 'D:/darsi/CAD/tamrin/hw2/hw2_q3/q3/src/q3.asdb'.
+# Adding file D:\darsi\CAD\tamrin\hw2\hw2_q3\q3\src\q3.asdb ... Done
+# Adding file D:\darsi\CAD\tamrin\hw2\hw2_q3\q3\src\q3.awc ... Done

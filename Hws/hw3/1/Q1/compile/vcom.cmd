@@ -1,0 +1,1 @@
+-w -erf T:/vhdl-codes/HW31/Q1/compile/Q1.erf -d T:/vhdl-codes/HW31/Q1/compile -s T:/vhdl-codes/HW31/library.cfg -j T:/vhdl-codes/HW31/Q1/projlib.cfg -work Q1 -O3 -e 100 -work Q1 -2002 T:/vhdl-codes/HW31/Q1/src/my_package.vhdl T:/vhdl-codes/HW31/Q1/src/main.vhdl 

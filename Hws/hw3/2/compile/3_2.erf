@@ -1,0 +1,2 @@
+ERROR VLM_0040: "VHDL unit cannot be compiled as the target library name is not a legal VHDL identifier."
+FAILURE "Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]" 

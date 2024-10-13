@@ -1,0 +1,38 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=q5
+[Library]
+q5=.\q5\q5.lib
+[$LibMap$]
+q5=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[Files]
+/q5.vhd=-1
+/pkg.vhd=-1
+/wf5.asdb=-1
+/wf5.awc=-1
+TestBench/soal5_TB.vhd=-1
+TestBench/soal5_TB_runtest.do=-1
+[Files.Data]
+.\src\q5.vhd=VHDL Source Code
+.\src\pkg.vhd=VHDL Source Code
+.\src\wf5.asdb=Accelerated Waveform File
+.\src\wf5.awc=Accelerated Waveform Configuration
+.\src\TestBench\soal5_TB.vhd=VHDL Test Bench
+.\src\TestBench\soal5_TB_runtest.do=Macro
+[Groups]
+TestBench=1
+[HierarchyViewer]
+HierarchyInformation=soal5_tb|TB_ARCHITECTURE|0
+ShowHide=ShowTopLevel
+Selected=

@@ -1,0 +1,6 @@
+6
+~E 1 "../src/q5.vhd" 10 soal5
+~A 1 "../src/q5.vhd" 19 t5
+~E 1 "../src/TestBench/soal5_TB.vhd" 11 soal5_tb
+~A 1 "../src/TestBench/soal5_TB.vhd" 14 TB_ARCHITECTURE
+~C 1 "../src/TestBench/soal5_TB.vhd" 88 testbench_for_soal5

@@ -1,0 +1,9 @@
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: Flow Manager: Not Defined
+acom -reorder -dbg -e 100 -work 3_2 -2002  $dsn/src/main.vhd
+# Error: VLM_0040: VHDL unit cannot be compiled as the target library name is not a legal VHDL identifier.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -reorder -dbg -e 100 -work 3_2 -2002  $dsn/src/main.vhd
+# Error: VLM_0040: VHDL unit cannot be compiled as the target library name is not a legal VHDL identifier.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]

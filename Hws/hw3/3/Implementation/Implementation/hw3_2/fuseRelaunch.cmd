@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/Projects/VHDL/Implementation/Implementation/CADPROJECT/CNNAccelerator_isim_beh.exe" -prj "D:/Projects/VHDL/Implementation/Implementation/CADPROJECT/CNNAccelerator_beh.prj" "work.CNNAccelerator" 

@@ -1,0 +1,45 @@
+timestamp=1680515027631
+
+[~A]
+ModifyID=2
+Version=74
+
+[~MFT]
+0=10|0q2.mgf|4410|0
+1=2|1q2.mgf|2871|0
+3=1|3q2.mgf|1307|0
+
+[alu]
+A/ans_alu=21|../src/main.vhd|19|1*0
+BinW64/ans_alu=3*0
+I=0*631
+I/ans_alu=0*1486
+M=11|2|vef|1680514861888|../src/main.vhd|0*197*0xb6ccc336050d46235733f20a5c0a1d8338771b92|0*559*0x23b75c12e3e89f2ef000564498faa8c2
+M/ans_alu=21|2|vef|1680514861890|../src/main.vhd|0*943*0x5fa0348d26c58cd900eb68fd8d5b788a15663d68|0*1403*0x9065d32a2e40e13794b29a2731812845
+R=../src/main.vhd|10
+Version=13.0.375.8320 (Windows64)|00000004789cd34d494a0700030f015b|fdc9c85601beb4171a6a25c637e2168e9a68008c17aec22ad189161c30fae1a7
+Version/ans_alu=13.0.375.8320 (Windows64)|00000004789cd34d494a0700030f015b|532545c44b4e3c256a8025f1aecc132826527262ddaa47cb266f3a3c4d9b973a2416a2681dd922aa9dbab2bfa8ab5d94
+
+[alu_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|../src/TestBench/alu_TB.vhd|11|1*1427
+BinW64/tb_architecture=3*1307
+I=0*2238
+I/tb_architecture=I/TB_ARCHITECTURE 0*3690
+M=11|2|vef|1680515027622|../src/TestBench/alu_TB.vhd|0*1924*0x6f1f7b2af87050b9da744266dda70eedce4abe69|0*2151*0x23b75c12e3e89f2ef000564498faa8c2
+M/tb_architecture=M/TB_ARCHITECTURE 21|2|vef|1680515027624|../src/TestBench/alu_TB.vhd|0*2552*0x634ea05072c5aaa76c95617e22e09b23a2b94e25|0*3584*0x9065d32a2e40e13794b29a2731812845
+R=../src/TestBench/alu_TB.vhd|8
+Version=13.0.375.8320 (Windows64)|00000004789cd34d494a0700030f015b|b5ca7ba7583dcb786be856c479ad2f64aab5e810162eecc9d81fa993b89b5f55
+Version/tb_architecture=13.0.375.8320 (Windows64)|00000004789cd34d494a0700030f015b|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534beadf434daf41fe834b3b539ef907eee2f1
+
+[testbench_for_alu]
+Configures=alu_tb.TB_ARCHITECTURE
+E=1*2871
+I=0*4410
+M=2|2|vef|1680515027628|../src/TestBench/alu_TB.vhd|0*4051*0x72b63320c2e4687068c6dc9df8c84a8f657a564c|0*4303*0x9065d32a2e40e13794b29a2731812845
+R=../src/TestBench/alu_TB.vhd|85
+Version=13.0.375.8320 (Windows64)|00000004789cd34d494a0700030f015b|5efd636a07bb57613e35fadc81a5c3e5b8f23e5cabe222998e0c23066880c31e607939505dbd277bad6cee47d632c601
+
+[~U]
+alu=11|0*0|
+alu_tb=11|0*1806|
+testbench_for_alu=TESTBENCH_FOR_alu 2||

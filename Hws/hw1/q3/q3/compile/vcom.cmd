@@ -1,0 +1,1 @@
+-w -erf C:/My_Designs/hw1_q3/q3/compile/q3.erf -d C:/My_Designs/hw1_q3/q3/compile -s C:/My_Designs/hw1_q3/library.cfg -j C:/My_Designs/hw1_q3/q3/projlib.cfg -work q3 -dbg -e 100 -work q3 -2002 C:/My_Designs/hw1_q3/q3/src/main.vhd C:/My_Designs/hw1_q3/q3/src/TestBench/un_to_bi_TB.vhd 

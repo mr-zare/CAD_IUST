@@ -1,0 +1,86 @@
+acom -dbg -e 100 -work q1 -2002  $dsn/src/main.vhd $dsn/src/pkg.vhd
+# File: C:/My_Designs/hw1_q1/q1/src/main.vhd
+# Compile Entity "sum_ent"
+# Compile Architecture "ans1" of Entity "sum_ent"
+# File: C:/My_Designs/hw1_q1/q1/src/pkg.vhd
+# Compile Package "arr"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+# ULM: Warning: ULM_0021 Architecture "tb_architecture" of entity "q1.sum_ent_tb" is not up-to-date. Please recompile file "C:\My_Designs\hw1_q1\q1/src/TestBench/sum_ent_TB.vhd".
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# ULM: Warning: ULM_0021 Architecture "tb_architecture" of entity "q1.sum_ent_tb" is not up-to-date. Please recompile file "C:\My_Designs\hw1_q1\q1/src/TestBench/sum_ent_TB.vhd".
+acom -dbg -e 100 -work q1 -2002  $dsn/src/main.vhd
+# File: C:/My_Designs/hw1_q1/q1/src/main.vhd
+# Compile Entity "sum_ent"
+# Compile Architecture "ans1" of Entity "sum_ent"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -dbg -e 100 -work q1 -2002  $dsn/src/TestBench/sum_ent_TB.vhd
+# File: C:/My_Designs/hw1_q1/q1/src/TestBench/sum_ent_TB.vhd
+# Compile Entity "sum_ent_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "sum_ent_tb"
+# Error: COMP96_0078: TestBench/sum_ent_TB.vhd : (17, 11): Unknown identifier "STD_LOGIC_VECTOR".
+# Error: COMP96_0064: TestBench/sum_ent_TB.vhd : (17, 11): Unknown type.
+# Error: COMP96_0078: TestBench/sum_ent_TB.vhd : (23, 13): Unknown identifier "STD_LOGIC_VECTOR".
+# Error: COMP96_0064: TestBench/sum_ent_TB.vhd : (23, 13): Unknown type.
+# Compile Configuration "TESTBENCH_FOR_sum_ent"
+# Error: VLM_0009: TestBench/sum_ent_TB.vhd : (52, 6): Architecture TB_ARCHITECTURE must be recompiled because entity q1.sum_ent_tb has changed.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -dbg -e 100 -work q1 -2002  $dsn/src/TestBench/sum_ent_TB.vhd
+# File: C:/My_Designs/hw1_q1/q1/src/TestBench/sum_ent_TB.vhd
+# Compile Entity "sum_ent_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "sum_ent_tb"
+# Compile Configuration "TESTBENCH_FOR_sum_ent"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+sum_ent_tb sum_ent_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5569 kB (elbread=427 elab2=5002 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\hw1_q1\q1\src\wave.asdb
+#  8:54 PM, Friday, April 14, 2023
+#  Simulation has been initialized
+# VSIM: 2 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/hw1_q1/q1/src/wave.asdb'.
+run 50 ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /sum_ent_tb/UUT,  Process: line__25.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /sum_ent_tb/UUT,  Process: line__25.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /sum_ent_tb/UUT,  Process: line__25.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /sum_ent_tb/UUT,  Process: line__25.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /sum_ent_tb/UUT,  Process: line__25.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /sum_ent_tb/UUT,  Process: line__25.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /sum_ent_tb/UUT,  Process: line__25.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /sum_ent_tb/UUT,  Process: line__25.
+# KERNEL: stopped at time: 50 ns
+run 50 ns
+# KERNEL: stopped at time: 100 ns
+run 50 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 50 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# Waveform file 'C:/My_Designs/hw1_q1/q1/src/wv1.awc' connected to 'C:/My_Designs/hw1_q1/q1/src/wv1.asdb'.
+# Adding file C:\My_Designs\hw1_q1\q1\src\wv1.asdb ... Done
+# Adding file C:\My_Designs\hw1_q1\q1\src\wv1.awc ... Done

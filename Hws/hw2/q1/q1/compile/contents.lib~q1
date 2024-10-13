@@ -1,0 +1,7 @@
+4
+~E 1 "../src/main.vhd" 5 Jazr
+~A 1 "../src/main.vhd" 8 myJazr
+~E 1 "../src/main.vhd" 14 Sort
+~A 1 "../src/main.vhd" 20 mySort
+~E 1 "../src/TestBench/sort_TB.vhd" 6 SortTb
+~A 1 "../src/TestBench/sort_TB.vhd" 9 behavior

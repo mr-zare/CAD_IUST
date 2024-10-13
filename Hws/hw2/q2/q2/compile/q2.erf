@@ -1,0 +1,5 @@
+MESSAGE "File: D:/darsi/CAD/tamrin/hw2/hw2_q2/q2/src/TestBench/jazr_TB.vhd" 
+MESSAGE "Compile Entity "jazr_TB"" 
+MESSAGE "Compile Architecture "myJazr" of Entity "jazr_TB"" 
+WARNING ELAB1_0026: "There is no default binding for component "SquareRootCalculator". (No entity named "SquareRootCalculator" was found)." "D:/darsi/CAD/tamrin/hw2/hw2_q2/q2/src/TestBench/jazr_TB.vhd" 24 0
+SUCCESS "Compile success 0 Errors 1 Warnings  Analysis time :  47.0 [ms]" 

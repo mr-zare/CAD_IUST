@@ -1,0 +1,4 @@
+MESSAGE "File: D:/darsi/CAD/tamrin/hw2/hw2_q1/q1/src/TestBench/sort_TB.vhd" 
+MESSAGE "Compile Entity "SortTb"" 
+MESSAGE "Compile Architecture "behavior" of Entity "SortTb"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]" 

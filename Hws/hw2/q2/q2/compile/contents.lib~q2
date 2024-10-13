@@ -1,0 +1,5 @@
+2
+~E 1 "../src/main.vhd" 6 Jazr
+~A 1 "../src/main.vhd" 13 myJazr
+~E 1 "../src/TestBench/jazr_TB.vhd" 5 jazr_TB
+~A 1 "../src/TestBench/jazr_TB.vhd" 8 myJazr

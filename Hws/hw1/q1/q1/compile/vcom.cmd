@@ -1,0 +1,1 @@
+-w -erf C:/My_Designs/hw1_q1/q1/compile/q1.erf -d C:/My_Designs/hw1_q1/q1/compile -s C:/My_Designs/hw1_q1/library.cfg -j C:/My_Designs/hw1_q1/q1/projlib.cfg -work q1 -dbg -e 100 -work q1 -2002 C:/My_Designs/hw1_q1/q1/src/TestBench/sum_ent_TB.vhd 

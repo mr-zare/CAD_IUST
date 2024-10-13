@@ -1,0 +1,6 @@
+21
+~E 1 "../src/main.vhd" 10 multdot
+~A 1 "../src/main.vhd" 17 ans
+~E 1 "../src/TestBench/multdot_TB.vhd" 11 multdot_tb
+~A 1 "../src/TestBench/multdot_TB.vhd" 14 TB_ARCHITECTURE
+~C 1 "../src/TestBench/multdot_TB.vhd" 61 testbench_for_multdot

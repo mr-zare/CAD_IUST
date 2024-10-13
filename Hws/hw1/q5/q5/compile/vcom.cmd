@@ -1,0 +1,1 @@
+-w -erf c:/My_Designs/hw1_q5/q5/compile/q5.erf -d c:/My_Designs/hw1_q5/q5/compile -s c:/My_Designs/hw1_q5/library.cfg -j c:/My_Designs/hw1_q5/q5/projlib.cfg -work q5 -dbg -e 100 -work q5 -2002 c:/My_Designs/hw1_q5/q5/src/TestBench/soal5_TB.vhd 

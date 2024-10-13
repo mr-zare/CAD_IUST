@@ -1,0 +1,36 @@
+timestamp=1685701908642
+
+[~A]
+ModifyID=2
+Version=74
+
+[~MFT]
+0=7|0q2.mgf|2744|0
+1=1|1q2.mgf|1461|0
+3=1|3q2.mgf|768|0
+
+[jazr]
+A/myjazr=A/myJazr 21|../src/main.vhd|13|1*0
+BinW64/myjazr=3*0
+I=0*543
+I/myjazr=I/myJazr 0*1304
+M=11|2|vef|1685701766433|../src/main.vhd|0*188*0x67c55ca822ee0c58f42b26f8798b847d3b96e69f|0*470*0x23b75c12e3e89f2ef000564498faa8c2
+M/myjazr=M/myJazr 21|2|vef|1685701766438|../src/main.vhd|0*818*0xd28838f65ad5b622c8e4879b3b180a9cceef8c40|0*1221*0x9065d32a2e40e13794b29a2731812845
+R=../src/main.vhd|6
+Version=13.0.375.8320 (Windows64)|00000004789cd34d494a0700030f015b|27b61a6797da91c34a86d4031a73a76a9938947f4557fd0925ec76a3b6f0398a
+Version/myjazr=13.0.375.8320 (Windows64)|00000004789cd34d494a0700030f015b|53fa3fced0c19d06c91ea4a0ace78ec3729735c45034183a2cdb041d867b23ef
+
+[jazr_tb]
+A/myjazr=A/myJazr 21|../src/TestBench/jazr_TB.vhd|8|1*1461
+BinW64/myjazr=3*768
+I=0*1967
+I/myjazr=I/myJazr 0*2744
+M=11|2|vef|1685701908620|../src/TestBench/jazr_TB.vhd|0*1706*0xe46a99cb984b37203c8978bb3d5825324a1f61bd|0*1878*0x23b75c12e3e89f2ef000564498faa8c2
+M/myjazr=M/myJazr 21|2|vef|1685701908622|../src/TestBench/jazr_TB.vhd|0*2168*0xde60ea99977f075ea14dc6c3d19e966c7238e591|0*2645*0x9065d32a2e40e13794b29a2731812845
+R=../src/TestBench/jazr_TB.vhd|5
+Version=13.0.375.8320 (Windows64)|00000004789cd34d494a0700030f015b|97632d5e0a4de0d0812e09a503f6355a26527262ddaa47cb266f3a3c4d9b973ad4754841566e2de4979e639ca3bad9c9
+Version/myjazr=13.0.375.8320 (Windows64)|00000004789cd34d494a0700030f015b|53fa3fced0c19d06c91ea4a0ace78ec3a2419d8b1935465f8527964b72670afb
+
+[~U]
+jazr=Jazr 11|0*0|
+jazr_tb=jazr_TB 11|0*1586|

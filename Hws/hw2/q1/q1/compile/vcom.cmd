@@ -1,0 +1,1 @@
+-w -erf D:/darsi/CAD/tamrin/hw2/hw2_q1/q1/compile/q1.erf -d D:/darsi/CAD/tamrin/hw2/hw2_q1/q1/compile -s D:/darsi/CAD/tamrin/hw2/hw2_q1/library.cfg -j D:/darsi/CAD/tamrin/hw2/hw2_q1/q1/projlib.cfg -work q1 -dbg -e 100 -work q1 -2002 D:/darsi/CAD/tamrin/hw2/hw2_q1/q1/src/TestBench/sort_TB.vhd 

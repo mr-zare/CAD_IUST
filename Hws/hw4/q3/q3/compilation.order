@@ -1,0 +1,2 @@
+.\src\mealy.vhd
+.\src\TestBench\mealy_fsm_TB.vhd

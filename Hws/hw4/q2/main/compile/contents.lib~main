@@ -1,0 +1,11 @@
+27
+~E 1 "../src/merge.vhdl" 5 main
+~A 1 "../src/merge.vhdl" 10 my_main
+~E 1 "../src/TestBench/main_TB.vhd" 7 main_tb
+~A 1 "../src/TestBench/main_TB.vhd" 10 TB_ARCHITECTURE
+~E 1 "../src/main2.vhdl" 4 statemachin2
+~A 1 "../src/main2.vhdl" 11 my_arch
+~E 1 "../src/main.vhdl" 4 statemachine
+~A 1 "../src/main.vhdl" 11 my_arch
+~E 1 "../src/main2.vhdl" 4 statemachine2
+~C 1 "../src/TestBench/main_TB.vhd" 86 testbench_for_main

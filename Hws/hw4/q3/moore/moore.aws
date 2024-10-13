@@ -1,0 +1,12 @@
+[Version]
+Version=13.0
+[Designs]
+hw4q3_2=.\hw4q3_2\hw4q3_2.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+hw4q3_2=1

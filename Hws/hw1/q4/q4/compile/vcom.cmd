@@ -1,0 +1,1 @@
+-w -erf C:/My_Designs/hw1_q4/q4/compile/q4.erf -d C:/My_Designs/hw1_q4/q4/compile -s C:/My_Designs/hw1_q4/library.cfg -j C:/My_Designs/hw1_q4/q4/projlib.cfg -work q4 -dbg -e 100 -work q4 -2002 C:/My_Designs/hw1_q4/q4/src/main.vhd C:/My_Designs/hw1_q4/q4/src/pkg.vhd C:/My_Designs/hw1_q4/q4/src/TestBench/multdot_TB.vhd 

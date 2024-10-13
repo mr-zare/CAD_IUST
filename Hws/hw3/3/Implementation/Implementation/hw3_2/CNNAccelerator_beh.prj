@@ -1,0 +1,3 @@
+vhdl work "pkg.vhd"
+vhdl work "Convolution.vhd"
+vhdl work "CNNAccelerator.vhd"
